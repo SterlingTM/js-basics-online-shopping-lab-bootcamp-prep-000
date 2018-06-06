@@ -9,18 +9,12 @@ function setCart(c) {
   return cart;
 }
 
-function addToCart(item) {
-  var items = { itemName: [], itemPrice: [], };
-  var price = (Math.random() * 100 + 1);
-  var itemPrice = price;
-  
-  Object.assign({}, items, { itemName: [item] }, itemPrice, { itemPrice: [price] });
- 
-  items;
-  
-  [items, ...cart];
-  return [...cart, items], '"${itemname} has been added to your cart"';
-  
+function addToCart (item) {
+  var price = Math.floor(100*(Math.random()));
+  var itemObj = {[item]: price};
+  cart.push(itemObj);
+  console.log(`${item} has been added to your cart.`);
+  return cart;
 }
 
 function viewCart() {
