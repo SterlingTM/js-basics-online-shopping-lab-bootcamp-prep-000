@@ -17,6 +17,12 @@ function addToCart (item) {
   return cart;
 }
 
+addToCart('Fuji');
+addToCart('Macintosh');
+addToCart('Ruby');
+addToCart('Granny Smith');
+
+
 function viewCart() {
   // write your code here
 }
