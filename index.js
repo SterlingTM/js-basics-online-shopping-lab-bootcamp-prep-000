@@ -1,5 +1,5 @@
 
-var cart = [];
+var cart = [ ];
 
 function addToCart (item) {
   var price = Math.floor(100*(Math.random()));
