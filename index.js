@@ -10,10 +10,10 @@ function addToCart (item) {
 }
 
 
-addToCart('glove');
-addToCart('ball');
-addToCart('skis');
-addToCart('shoes');
+addToCart('Fuji');
+addToCart('Macintosh');
+addToCart('Ruby');
+addToCart('Granny Smith');
 
 function viewCart() {
   var cartItems = [];
